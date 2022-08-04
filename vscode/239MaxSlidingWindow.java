@@ -8,7 +8,7 @@ class MaxSlidingWindow {
         int[] ans = new int[nums.length-k+1];
         int windMax = Integer.MIN_VALUE;
         Queue<Integer> queue = new LinkedList<>();
-
+      
         for(int i = 0; i<nums.length; i++){
             if(i<k){
                 queue.add(nums[i]);
@@ -22,6 +22,7 @@ class MaxSlidingWindow {
             }else{
                 queue.remove();
                 queue.add(nums[i]);
+                ((LinkedList) queue).getFirst();
                 for(Integer in : queue){
                     windMax = Math.max(windMax, in);
                 }

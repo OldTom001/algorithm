@@ -9,6 +9,5 @@ public class TestDemo {
         Method m = new Method();
         int[] result = m.twoSum(nums, target);
         System.out.println(Arrays.toString(result));
-
     }
 }

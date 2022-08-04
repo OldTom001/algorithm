@@ -20,9 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f96ba032-bb37-46c8-8824-19310667fc1d" name="Default Changelist" comment="int版MyHashMap">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/src/TwoSum/TwoSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/src/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/Solution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/Solution.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/src/TwoSum/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/src/TwoSum/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/ListNode/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/ListNode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/ListNode/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/META-INF/Solution.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solution/TwoSum/TestDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solution/TwoSum/TestDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vscode/239MaxSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../vscode/239MaxSlidingWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +68,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -74,7 +83,7 @@
       <recent name="E:\LearningNotes\Java基础\LeetCode\Solution\src\SortColors" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListNodeDemo">
+  <component name="RunManager" selected="JUnit.TwoSumTest.testTwoSum">
     <configuration name="ListNodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ListNode.ListNodeDemo" />
       <module name="Solution" />
@@ -88,32 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
-      <module name="Test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LongestPalindrome.Solution2" />
       <module name="Solution" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LongestPalindrome.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindRepeatedDnaSequences.Solution2" />
-      <module name="Solution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FindRepeatedDnaSequences.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,13 +123,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoSum.TestDemo" />
+      <module name="Solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TwoSum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSumTest.testTwoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Solution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TwoSum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TwoSum" />
+      <option name="MAIN_CLASS_NAME" value="TwoSum.TwoSumTest" />
+      <option name="METHOD_NAME" value="testTwoSum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TwoSumTest.testTwoSum" />
+        <item itemvalue="Application.TestDemo" />
         <item itemvalue="Application.ListNodeDemo" />
         <item itemvalue="Application.Solution2 (1)" />
         <item itemvalue="Application.Solution3" />
-        <item itemvalue="Application.Solution2" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +207,8 @@
       <workItem from="1652364403166" duration="839000" />
       <workItem from="1652625528857" duration="792000" />
       <workItem from="1658837190880" duration="271000" />
+      <workItem from="1659603382305" duration="2018000" />
+      <workItem from="1659608087995" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="int版MyHashMap">
       <created>1627288417231</created>
