@@ -27,7 +27,8 @@ public class BinaryTreePaths {
     }
     public void dfs(TreeNode node, int index, List<String> res){
         if(node==null)return;
-
+        StringBuffer sb =new StringBuffer("hhh");
+        sb.toString();
         if(node.left==null&&node.right==null){//判断叶子结点
             res.add(getPath(index));
         }
